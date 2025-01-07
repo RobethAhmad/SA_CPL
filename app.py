@@ -10,7 +10,16 @@ model = YOLO("Weights/best.pt")
 class_labels = ['With Helmet', 'Without Helmet']
 
 # Streamlit App Title
-st.title("YOLO Helmet Detection Web App")
+st.title("Counter Pelanggaran Lalu Lintas (Helm Detection)")
+
+# Subtitle
+st.subheader("Nama Kelompok: CPL")
+st.write("""
+1. Muhammad Ismail Ardhafillah (201111013)  
+2. Atha An Naufal (211111012)  
+3. Marcellino Andriano Dressel (211111018)  
+4. Robeth Ahmad Kirom Sholeh (211111022)
+""")
 
 # File uploader for image input
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "png", "jpeg"])
