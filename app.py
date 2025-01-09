@@ -19,6 +19,7 @@ st.write("""
 2. Atha An Naufal (211111012)  
 3. Marcellino Andriano Dressel (211111018)  
 4. Robeth Ahmad Kirom Sholeh (211111022)
+5. Alwarits Akbar Nuranda (221111024)
 """)
 
 # File uploader for image input
